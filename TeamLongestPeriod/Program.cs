@@ -82,7 +82,7 @@ namespace TeamLongestPeriod
         {
             DateTime now = DateTime.Now;
 
-            using (var sr = new StreamReader("data.csv"))
+            using (var sr = new StreamReader(@".../.../data.csv"))
             {
                 while (!sr.EndOfStream)
                 {
